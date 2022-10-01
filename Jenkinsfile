@@ -17,7 +17,7 @@ pipeline {
 
         stage('front-end unit tests') {
           steps {
-            sh 'cd curriculum-front && npm i --loglevel=error && npm run test:unit'
+            sh 'cd curriculum-front && npm run test:unit'
           }
         }
 
